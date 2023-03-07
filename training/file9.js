@@ -21,9 +21,10 @@ calculator()
 // types of function
 /*
 1) normal function
-2) expression function
-3) arrow function
-4) one line-function
+2) anonomous function
+3) expression function
+4) arrow function
+5) one line-function
 */
 
 // normal function
@@ -32,6 +33,12 @@ function user_bio() {
 }
 
 user_bio()
+
+// anonomous function
+let a = function() {
+    console.log("Hi!, I am a user")
+}
+a()
 
 // expression function
 const abc = function addTwoNum(num1, num2) {
