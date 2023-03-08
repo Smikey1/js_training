@@ -5,13 +5,14 @@
 function mainFunction(callback) {
     // console.log(params)
     console.log("Hello!, I am from Main Function")
-    callback("Apple")
+    callback("apple")
 }
 
 function anotherMain(value) {
     console.log("Another function", value)
 }
 
+// mainFunction((value) => console.log("Another function", value))
 mainFunction(anotherMain)
 
 
