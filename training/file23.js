@@ -13,7 +13,7 @@ function createUser(firstName, lastName, age) {
     this.age = age
 }
 
-createUser.prototype.aboutMe = function (){
+createUser.prototype.aboutMe = function () {
     console.log(`Full name:${this.firstName} ${this.lastName} and Age: ${this.age}`)
 }
 
@@ -21,7 +21,7 @@ createUser.prototype.aboutMe = function (){
 // 1st ma --> empty object banauxa with linking own prototype --> this = {}
 // 2nd --> auto return hunxa this
 
-const user1 = new createUser("Apple","A",20)
+const user1 = new createUser("Apple", "A", 20)
 
 // undefine aauxa because the lack of new
 user1.aboutMe()

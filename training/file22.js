@@ -31,7 +31,7 @@ console.log("-------------")
 
 for (let key in user1) {
     // console.log(key)
-    if(user1.hasOwnProperty(key)){
+    if (user1.hasOwnProperty(key)) {
         console.log(key)
     }
 }

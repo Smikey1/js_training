@@ -70,5 +70,5 @@ for (let user of user_list) {
 }
 
 // same work with nested de-structing
-const [user1,user2,user3]=user_list
+const [user1, user2, user3] = user_list
 console.log(user1["age"])
